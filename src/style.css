@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (min-width: 415px){
+    .site-container {
+      flex-direction: row;
+    }
+  }
+body {
+    width : 100%;
+    background-color: #f2f2f2;
+  }
+  .inner {
+    background-color: #fff;
+    padding: 5px;
+  }
+  .items {
+    width: 20% !important;
+    float: centre;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+  .items1 {
+    width: 40% !important;
+    float: centre;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .marginBottom15 {
+    margin-bottom: 30px;
+  }
+  .full-width {
+    width: 100%;
+  }
+  .imgBg {
+    background: #f2f2f2;
+    margin-bottom: 10px;
+  }
+  .productName {
+    color: #3f4a90;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .marg0 {
+    margin: 0 !important;
+  }
+  .missionId {
+    margin: 0;
+  }
+  .blueClr {
+    color: #3f4a90;
+  }
+  .margBot5 {
+    margin-bottom: 5px !important;
+  }
+  .normal {
+    font-weight: normal;
+  }
+  .conn {
+    text-align: center;
+  }
+  .launchYear p {
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  .btnSpacex {
+    margin: 5px;
+    background: #c5e09b;
+  }
+  .col12 {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+  }
+  
